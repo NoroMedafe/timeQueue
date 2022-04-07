@@ -12,7 +12,7 @@ namespace timeQueue
         {
             int timeOfReceipt = 10;
             int queueLenght;
-            const int hour = 60;
+            const int MinutesInAnHour = 60;
             int timeInLine;
             int countHours;
             int countMinutes;
