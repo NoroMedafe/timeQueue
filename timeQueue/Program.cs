@@ -19,8 +19,8 @@ namespace timeQueue
 
             Console.Write("Введите количество людей в очереди: "); queueLenght = Convert.ToInt32(Console.ReadLine());
             timeInLine = timeOfReceipt * queueLenght;
-            countHours = timeInLine / hour;
-            countMinutes = timeInLine % hour;
+            countHours = timeInLine / MinutesInAnHour;
+            countMinutes = timeInLine % MinutesInAnHour;
             Console.WriteLine($"Вы должны отстоять в очереди {countHours} часа и {countMinutes} минут");
             Console.ReadKey();
         }
